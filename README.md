@@ -10,7 +10,7 @@ Trading cargo from system to system, carrying slaves or warmachines, or prey on 
 
 ## Sample Screenshot?
 
-'''
+```
 +------------------------------------------------------------------------------+
 |  .                                                           |               |
 |                                .                             |       ^       |
@@ -36,7 +36,7 @@ Trading cargo from system to system, carrying slaves or warmachines, or prey on 
 | Your Stats here                                                              |
 |                                                                              |
 +------------------------------------------------------------------------------+
-'''
+```
 
 ## Code Ideas
 
