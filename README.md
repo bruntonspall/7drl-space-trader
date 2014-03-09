@@ -40,19 +40,19 @@ Trading cargo from system to system, carrying slaves or warmachines, or prey on 
 
 ## Code Ideas
 
-Multiple windows within a screen
-Turn based
-Random Universe each play
-Random economic events (I.e. systems declare war, ally, famine etc)
-Economic market on systems.
+* Multiple windows within a screen
+* Turn based
+* Random Universe each play
+* Random economic events (I.e. systems declare war, ally, famine etc)
+* Economic market on systems.
 
 ## First todo's
 
-Get up and running with something like curses and a window
-Random map generation
-Ability to move around (Newtonian physics or normal roguelike?)
-Docking with systems
-Intership combat
-Policeforce for piracy
-Random pirates
+* Get up and running with something like curses and a window
+* Random map generation
+* Ability to move around (Newtonian physics or normal roguelike?)
+* Docking with systems
+* Intership combat
+* Policeforce for piracy
+* Random pirates
 
