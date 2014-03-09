@@ -48,7 +48,7 @@ Trading cargo from system to system, carrying slaves or warmachines, or prey on 
 
 ## First todo's
 
-* Get up and running with something like curses and a window
+* Get up and running with something like curses and a window - @done
 * Random map generation
 * Ability to move around (Newtonian physics or normal roguelike?)
 * Docking with systems
