@@ -8,6 +8,11 @@ object Position {
   def apply(x: Int, y: Int) = new Position(x,y)
 }
 
+case class Viewport(var sx: Int, var sy: Int, width: Int, height: Int) {
+  def translate(p: Position): Position = Position(p.x-sx, p.y-sy)
+  def visible(p: Position): Boolean = p.x >= sx && p.x < sx+width && p.y >= sy && p.y < sy+height
+}
+
 class Renderable(val glyph: Glyph, val position: Position)
 
 case class System(name: String, override val glyph: Glyph, override val position: Position) extends Renderable(glyph, position)
