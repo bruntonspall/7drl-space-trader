@@ -1,9 +1,10 @@
 import model._
-import model.Glyph
-import model.Ship
 import ncurses4j.NCurses
 object Main {
-  val world = new World()
+  val world = new World
+
+  world.systems = gen.Stars.generateSystems(100, 100).groupBy(_.position).mapValues(_.head)
+
   val screen = NCurses.initscr()
   val maxx = NCurses.getmaxx(screen)
   val maxy = NCurses.getmaxy(screen)
