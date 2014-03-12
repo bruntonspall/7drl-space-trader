@@ -23,6 +23,7 @@ object Main {
     }
     val (px,py,sx,sy) = (player.position.x,player.position.y,view.sx,view.sy)
     NCurses.mvprintw(maxy-1,0,s"Player: $px,$py Screen: $sx,$sy")
+    world.systems.get(Position(px,py)).map(s => NCurses.mvprintw(maxy-2, 0, s"Star: "+s.name))
   }
 
   def renderScreen() {

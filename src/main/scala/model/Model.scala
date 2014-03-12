@@ -3,10 +3,7 @@ package model
 case class Glyph(chr: Char, bold: Boolean, colour: Integer)
 
 /** Not going for immutability, we can think if there's a way to approach immutability later */
-class Position(var x: Int, var y: Int)
-object Position {
-  def apply(x: Int, y: Int) = new Position(x,y)
-}
+case class Position(var x: Int, var y: Int)
 
 case class Viewport(var sx: Int, var sy: Int, width: Int, height: Int) {
   def translate(p: Position): Position = Position(p.x-sx, p.y-sy)
